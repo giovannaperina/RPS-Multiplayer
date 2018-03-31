@@ -1,0 +1,30 @@
+{
+    "game": {
+        "players": {
+            "1": {
+                "choice": "ROCK/PAPER/SCISSORS",
+                "losses": "INT",
+                "wins": "INT",
+                "name": "STRING"
+            },
+            "2": {
+                "choice": "ROCK/PAPER/SCISSORS",
+                "losses": "INT",
+                "wins": "INT",
+                "name": "STRING"
+            }
+        },
+        "turn": "INT"
+    },
+    
+    "chat": [
+        {
+            "name": "Giovanna",
+            "message": "..."
+        },
+        {
+            "name": "Player 2",
+            "message": "..."
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #00884A;
+    color: #FFF;
+    position: relative;
+}
+
+#user-enter {
+    position: fixed;
+    top: 50%;
+}
+
+#game-screen
+
+.header {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    float:left;
+    text-align: center;
+    padding-bottom: 5px;
+    height:65px;
+}
+.wins span {
+    color:#415575;
+}
+.losses span {
+    color: #b90017;
+}
+.wins, .user-name, .losses{
+    width: 33.3%;
+    float: left;  
+    height:65px;
+}
+.wins p, .losses p{
+    margin-bottom: 0;
+}
+.user-name, .losses{
+    border-left: solid 1px #e0e0e0;
+}
+.user-name {
+    padding-top: 14px;
+
+}
+
+.fa {
+    font-size: 100px;
+}
+.fa-comments {
+    font-size:30px;
+    position: fixed;
+    top:50%;
+    right:10px
+    
+}
+        /* Hands Bottom */
+.bottom {
+    position: fixed;
+    bottom: 0;
+}        
+.rock-b{
+    position: absolute;
+    top:480px;
+    left:20px
+}
+.paper-b{
+    position: absolute;
+    top:480px;
+    left: 140px
+}
+.scissors-b{
+    position: absolute;
+    top:480px;
+    left:270px;
+    transform: rotate(90deg);
+}
+
+
+        /* Hands Top */
+.rock {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+.paper {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+.scissors {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 90px;
+    left: 270px;
+}
